@@ -24,6 +24,13 @@ Final Design
 
 <!-- </details> -->
 
+<details>
+  <summary>Pinnout</summary>
+
+![Pinnout](assets/Pins.png)
+
+</details>
+
 ## BOM
 
 | Index | Part Number           | What the item is for in your project | Pack Quantity | Qtty | Link                                                  | Unit Price | Total Price | Total (incl. VAT. shipping ...) | Total (incl. VAT. shipping ...) USD |
