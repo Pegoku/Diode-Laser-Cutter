@@ -246,13 +246,12 @@ Today I finished the configuration of the laser, and also wanted to test somethi
 
 First try:
 
-![alt text](<PXL_20250729_141727029.MP (1).jpg>)
+![alt text](<assets/build/PXL_20250729_141727029.MP (1).jpg>)
 
 Second try:
 
-![alt text](<PXL_20250729_143214385.MP (1).jpg>)
+![alt text](<assets/build/PXL_20250729_143214385.MP (1).jpg>)
 
 Second try after cleaning:
 
-![alt text](<PXL_20250729_144206687.MP (1).jpg>)
-
+![alt text](assets/build/9f0fc62a-dcf2-40b5-ae54-9f2e70bed5b7~1.jpg)

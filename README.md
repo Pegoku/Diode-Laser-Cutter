@@ -16,8 +16,7 @@ I made this project as I wanted to learn how to design a small laser CNC to cut 
 ## Images
 
 Final Build
-![Final Build](assets/image-15.png)
-
+![Final Build](<assets/image copy.png>)
 
 <details>
   <summary>Final design</summary>
