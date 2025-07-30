@@ -1,4 +1,4 @@
----
+|---
 title: "Diode Laser Cutter"
 author: "Pegoku"
 description: "CNC Laser Cutter/engraver with a diode laser"
@@ -201,7 +201,7 @@ Also, while I was at it, I wanted to connect the laser belt, but I realised I ha
 
 # July 25th: Electronics and wiring
 Today I mounted the electronics to the frame, and started wiring everything.
-first, I mounted the controller (BTT Rodent) to the frame, which was quite easy, as I just had to screw it to the frame using T-nuts. I also mounted the power supply, which was a bit harder, as I wanted it to be mounted using t-nuts too, but there weren't any holes. So I just dissasembled the PSU and replaced drilled two nuts of the PSU and replaced the screws with longer ones so I could screw it to the frame.
+First, I mounted the controller (BTT Rodent) to the frame, which was quite easy, as I just had to screw it to the frame using T-nuts. I also mounted the power supply, which was a bit harder, as I wanted it to be mounted using t-nuts too, but there weren't any holes. So I just dissasembled the PSU and replaced drilled two nuts of the PSU and replaced the screws with longer ones so I could screw it to the frame.
 
 ![alt text](assets/build/share_7046392905535642986.jpeg)
 
@@ -212,7 +212,7 @@ I also wired the controller and power supply, I only needed to wire the laser, a
 **Total time spent: 5.5h**
 
 # July 26th: Wiring the Y motors
-Today I wired and configured both Y motors, which was quite easy. Sadly, I didn't have a crimper in hand, nor the right connector, so I just used pin receptacles soldered to the stepper wires. First, I thought I had configured something wrong, (maybe too little current), so I increased the current to 3A, twice the motor current, but it still didn't work, it just vibrated. Then I had connected a motor phase in reverse, so I just swapped the wires, and it worked! Then I played with them a bit, and also used the laser for the first time, which was quite fun. While doing that, I realised the motors were quite hot, and I didn't remember why. But while reviewing the config, I saw the 3A current 😅 , so I reduced it to the recommended 1.5A, and it worked perfectly.
+Today I wired and configured both Y motors, which was quite easy. Sadly, I didn't have a crimper in hand, nor the right connector, so I just used pin receptacles soldered to the stepper wires. First, I thought I had configured something wrong, (maybe too little current), so I increased the current to 3A, twice the motor current, but it still didn't work, it just vibrated. Then I noticed I had connected a motor phase in reverse, so I just swapped the wires, and it worked! Then I played with them a bit, and also used the laser for the first time, which was quite fun. While doing that, I realised the motors were quite hot, and I didn't remember why. But while reviewing the config, I saw the 3A current 😅 , so I reduced it to the recommended 1.5A, and it worked perfectly.
 
 <video controls src="assets/build/PXL_20250726_225948615~2.mp4" title="Title"></video>
 
