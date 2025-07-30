@@ -18,6 +18,10 @@ I made this project as I wanted to learn how to design a small laser CNC to cut 
 Final Build
 ![Final Build](<assets/image copy.png>)
 
+Example of engraving
+![Example of engraving](assets/build/9f0fc62a-dcf2-40b5-ae54-9f2e70bed5b7~1.jpg)
+
+
 <details>
   <summary>Final design</summary>
 
