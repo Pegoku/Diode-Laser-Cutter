@@ -203,7 +203,7 @@ Also, while I was at it, I wanted to connect the laser belt, but I realised I ha
 Today I mounted the electronics to the frame, and started wiring everything.
 first, I mounted the controller (BTT Rodent) to the frame, which was quite easy, as I just had to screw it to the frame using T-nuts. I also mounted the power supply, which was a bit harder, as I wanted it to be mounted using t-nuts too, but there weren't any holes. So I just dissasembled the PSU and replaced drilled two nuts of the PSU and replaced the screws with longer ones so I could screw it to the frame.
 
-![alt text](share_7046392905535642986.jpeg)
+![alt text](assets/build/share_7046392905535642986.jpeg)
 
 I also wired the controller and power supply, I only needed to wire the laser, and motors.
 
