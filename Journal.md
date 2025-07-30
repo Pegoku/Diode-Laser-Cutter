@@ -126,3 +126,133 @@ Final design:
 Now I only had to code the machine. I used FluidNC, and luckily, there was a template for the Rodent controller, so I just had to copy it and change a bit the configuration. eg. adding dual Y motors, enabling PWM, etc.
 
 **Total time spent: 7h**
+
+# July 22th: Start the build
+After quite a long wait. All (almost) the pieces have arived!!
+Today I started the build. First, I built the frame to see how big it would be, and to see if I had the minimum pieces to build it. I did it, but the floor was a bit uneven, so I put some wood under the legs to make it flatter. 
+Then I realized I had to cut the 2020 extrusions, as they were too long, so I cut them to about the right size using a hacksaw.
+
+![alt text](assets/build/IMG-20250721-WA0011.jpg)
+
+After that, I grabbed all the printed parts I had, and started removing the supports. That took quite a while, as I had used auto-generated supports, which were quite hard to remove. But I finally got them all removed.
+
+![alt text](assets/build/PXL_20250722_144623442.MP.jpg)
+
+To continue, I placed the motor in the printed case, and I had to modify it a bit, as I hadn't thought about the motor connector, so I had to cut a bit of the case to make it fit. After that, I placed the motor in the case and it fit snugly.
+
+![alt text](assets/build/PXL_20250722_160751902.MP.jpg)
+
+Then I placed both Y idler supports, which fit snugly too. 
+
+![alt text](assets/build/PXL_20250722_162210579.MP.jpg)
+
+After that, I screwed both Y linear rails to the extrusions. I also added the idlers to the supports, which they weren't correctly designed, as the idlers couldn't be tensioned.
+
+![alt text](assets/build/PXL_20250722_182034469.jpg)
+
+To fix: motor holders and idler supports.
+
+**Total time spent: 6h**
+
+# July 23th: Continuing the build
+Today I continued the build. All the fixed and remaining prints finished printing.
+First, I placed the 2nd motor, which I already had printed, so I had to modify it too.
+
+![alt text](assets/build/PXL_20250723_141324793.MP.jpg)
+
+Then, I screwed the X linear rail to the X axis extrusion, and aligned it with the printed pieces. 
+
+![alt text](assets/build/PXL_20250723_153411680.MP.jpg)
+
+Afterwards, I realised that the X axis would be hard to place, as the extrusion was on top of the screw holes. So I had to remove the printed parts from the X extrusion, remove the linear blocks from the rails and screw them to the printed parts. I used a holder-thingy to hold the balls from the linear blocks, so they wouldn't fall out. Then I slowly placed the linear blocks on the rails. This was a tense moment, as I didn't want to lose any balls, but luckily it worked and I could mount the X axis!
+
+![alt text](assets/build/PXL_20250723_154801676.MP.jpg)
+
+To finish, I placed the new idler supports, which were designed to be able to fit the idlers and to be tensioned. I also placed the new X idler mount, which also had a design error.
+
+![alt text](assets/build/PXL_20250723_172033958.jpg)
+
+PS: I also noticed the screws I needed to use M6 screws for the extrusions, not M5, so I went and bought some M6 screws, as I didn't have any, and the next day I'll screw them to the extrusions.
+
+**Total time spent: 5h**
+
+# July 24th: Tapping is my passion 😭
+First, I fixed the belt tensioners, as the nut was too loose and it spun freely, as I didn't use a square nut, so I just used hot glue to hold it in place. I also added a M2.5 washer to the M3 screw end, so it wouldn't damage the plastic when tightening it (it did before). 
+
+Today I spent a LOT of time tapping the extrusions (I spent +3.5h tapping), but it was worth it. I had to tap all the extrusions, and drill some passthrough holes for some screws. I used a M6 tap, and also had to drill the printed parts to fit the M6 screws.
+
+![alt text](assets/build/PXL_20250724_154552655.jpg)
+
+I made another mistake, one of the rear motor screw wasn't long enough, so I had to spin fast the screw so it melted the plastic and could screw to the extrusion. 
+
+![alt text](assets/build/PXL_20250724_154608519.MP.jpg)
+
+But overall, I think it turned out quite well.
+
+I also mounted the Laser on the X axis, which was quite easy, except for the fact that I had to drill new holes to the laser support, as I had designed it wrong. Was an easy fix, though.
+
+![alt text](assets/build/e2803b92-6fd8-406b-bf8a-a2a92011700f~1.jpg)
+
+Also, while I was at it, I wanted to connect the laser belt, but I realised I had only ordered 2 pulleys and idlers for the printer, and I needed another one, so I ordered them online, and to skip the wait, I tried getting them from an old printer I had, but sadly they were too small, so I just had to wait for them to arrive.
+
+![alt text](<assets/build/PXL_20250724_160515749.MP (1).jpg>)
+
+**Total time spent: 7h**
+
+# July 25th: Electronics and wiring
+Today I mounted the electronics to the frame, and started wiring everything.
+first, I mounted the controller (BTT Rodent) to the frame, which was quite easy, as I just had to screw it to the frame using T-nuts. I also mounted the power supply, which was a bit harder, as I wanted it to be mounted using t-nuts too, but there weren't any holes. So I just dissasembled the PSU and replaced drilled two nuts of the PSU and replaced the screws with longer ones so I could screw it to the frame.
+
+![alt text](share_7046392905535642986.jpeg)
+
+I also wired the controller and power supply, I only needed to wire the laser, and motors.
+
+![alt text](assets/build/99ad666f-86c4-4c67-bda7-c2eafca899f6~1.jpg)
+
+**Total time spent: 5.5h**
+
+# July 26th: Wiring the Y motors
+Today I wired and configured both Y motors, which was quite easy. Sadly, I didn't have a crimper in hand, nor the right connector, so I just used pin receptacles soldered to the stepper wires. First, I thought I had configured something wrong, (maybe too little current), so I increased the current to 3A, twice the motor current, but it still didn't work, it just vibrated. Then I had connected a motor phase in reverse, so I just swapped the wires, and it worked! Then I played with them a bit, and also used the laser for the first time, which was quite fun. While doing that, I realised the motors were quite hot, and I didn't remember why. But while reviewing the config, I saw the 3A current 😅 , so I reduced it to the recommended 1.5A, and it worked perfectly.
+
+<video controls src="assets/build/PXL_20250726_225948615~2.mp4" title="Title"></video>
+
+**Total time spent: 3h**
+
+# July 27th: Wiring the X motor and belt
+Today the pulleys and idlers arrived! So I could wire the X motor and belt. I first mounted the idler, which was quite easy, except for a design flaw, which made the belt tensioner almost unusable. Then I mounted the pulley to the motor, which was quite easier, as I just had to use a M3 setscrew to hold it in place.
+Then, I mounted the belt to the X axis, which was a quite hard to tension, but luckily I was able to do it using zipties.
+
+After that, I crimped the wires to the motors, wired and configured them.
+Then, I did some calibrations to the laser, like, the power and speed, speed and passes, accuracy, and my favourite, the shake test.
+
+![alt text](<assets/build/PXL_20250729_143413190.MP (1).jpg>)
+
+![alt text](<assets/build/PXL_20250729_143359366.MP (1).jpg>)
+
+![alt text](<assets/build/PXL_20250728_195010573.MP (1).jpg>)
+
+![alt text](<assets/build/PXL_20250728_214706432.MP (1).jpg>)
+
+<video controls src="assets/build/PXL_20250728_212713560.LS (1)-1.mp4" title="Title"></video>
+
+While doing the tests, I fixed the config, and finally I did my first real ~~print~~ cut. It was for my robotics team, and it was a success!!, quite fast too. I did with cardboard, and then with wood.
+
+![alt text](<assets/build/PXL_20250728_200523545.MP (1).jpg>)
+
+**Total time spent: 7h**
+
+# July 28th: Final configuration and 3d engraving!
+Today I finished the configuration of the laser, and also wanted to test something I saw online. 3D engraving. To do it, I tested with the HackClub logo, which I had to convert to a grayscale image, and then to gcode using LaserGRBL. The result, after quite a few tries, was quite good.
+
+First try:
+
+![alt text](<PXL_20250729_141727029.MP (1).jpg>)
+
+Second try:
+
+![alt text](<PXL_20250729_143214385.MP (1).jpg>)
+
+Second try after cleaning:
+
+![alt text](<PXL_20250729_144206687.MP (1).jpg>)
+

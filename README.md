@@ -15,14 +15,18 @@ I made this project as I wanted to learn how to design a small laser CNC to cut 
 
 ## Images
 
-<!-- <details>
-  <summary>Final design</summary> -->
+Final Build
+![Final Build](assets/image-15.png)
+
+
+<details>
+  <summary>Final design</summary>
 
 Final Design
 
 ![Final](assets/image-16.png)
 
-<!-- </details> -->
+</details>
 
 <details>
   <summary>Pinout</summary>
@@ -30,6 +34,8 @@ Final Design
 ![Pinout](assets/Pins.png)
 
 </details>
+
+
 
 ## BOM
 
