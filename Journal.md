@@ -233,7 +233,7 @@ Then, I did some calibrations to the laser, like, the power and speed, speed and
 
 ![alt text](<assets/build/PXL_20250728_214706432.MP (1).jpg>)
 
-<video controls src="assets/build/PXL_20250728_212713560.LS (1)-1.mp4" title="Title"></video>
+![Shake test](<assets/build/PXL_20250728_212713560.LS (1)-1.mp4>)
 
 While doing the tests, I fixed the config, and finally I did my first real ~~print~~ cut. It was for my robotics team, and it was a success!!, quite fast too. I did with cardboard, and then with wood.
 
