@@ -3,7 +3,7 @@ title: "Diode Laser Cutter"
 author: "Pegoku"
 description: "CNC Laser Cutter/engraver with a diode laser"
 created_at: "2025-06-18"
-total_time_spent: "37h"
+total_time_spent: "83h"
 ---
 
 # June 18th: Mockup and first components
@@ -255,3 +255,5 @@ Second try:
 Second try after cleaning:
 
 ![alt text](assets/build/9f0fc62a-dcf2-40b5-ae54-9f2e70bed5b7~1.jpg)
+
+**Total time spent: 4.5h**
