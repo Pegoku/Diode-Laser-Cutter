@@ -132,7 +132,7 @@ After quite a long wait. All (almost) the pieces have arived!!
 Today I started the build. First, I built the frame to see how big it would be, and to see if I had the minimum pieces to build it. I did it, but the floor was a bit uneven, so I put some wood under the legs to make it flatter. 
 Then I realized I had to cut the 2020 extrusions, as they were too long, so I cut them to about the right size using a hacksaw.
 
-![alt text](assets/build/IMG-20250721-WA0011.jpg)
+![alt text](assets/build/IMG-20250722-WA0011.jpg)
 
 After that, I grabbed all the printed parts I had, and started removing the supports. That took quite a while, as I had used auto-generated supports, which were quite hard to remove. But I finally got them all removed.
 
@@ -257,3 +257,4 @@ Second try after cleaning:
 ![alt text](assets/build/9f0fc62a-dcf2-40b5-ae54-9f2e70bed5b7~1.jpg)
 
 **Total time spent: 4.5h**
+
